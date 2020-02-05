@@ -1,0 +1,2 @@
+roslaunch realsense2_camera rs_camera.launch filters:=pointcloud
+rosrun ORB_SLAM2 RGBD Vocabulary/ORBvoc.txt Examples/ROS/ORB_SLAM2/AsusD435.yaml

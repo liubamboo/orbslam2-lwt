@@ -1,0 +1,7 @@
+rosrun ORB_SLAM2 RGBD /home/n609/project/orb-slam2/ORB_SLAM2/Vocabulary/ORBvoc.txt /home/n609/project/orb-slam2/ORB_SLAM2/Examples/ROS/ORB_SLAM2/AsusD435.yaml
+
+
+export ${ROS_PACKAGE_PATH}:/home/n609/project/orb-slam2/ORB_SLAM2/Examples/ROS/ORB_SLAM2
+
+roslaunch realsense2_camera rs_camera.launch filters:=pointcloud
+
